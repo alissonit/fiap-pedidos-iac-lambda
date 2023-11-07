@@ -70,6 +70,6 @@ resource "aws_cloudwatch_log_group" "authorizer" {
 }
 
 resource "aws_cloudwatch_log_stream" "name" {
-    name           = "fiap-pedidos-authorizer"
-    log_group_name = aws_cloudwatch_log_group.authorizer.name
+  name           = "fiap-pedidos-authorizer"
+  log_group_name = aws_cloudwatch_log_group.authorizer.name
 }

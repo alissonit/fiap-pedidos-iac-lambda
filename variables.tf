@@ -14,5 +14,5 @@ variable "app_name" {
 }
 
 variable "aws_account_id" {
-    description = "AWS Account ID"
+  description = "AWS Account ID"
 }
