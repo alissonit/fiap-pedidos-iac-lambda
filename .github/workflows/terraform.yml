@@ -32,7 +32,7 @@ jobs:
 
       - name: AWS login SSO
         run: |
-          aws sso login --profile fiap-env
+          aws sso login --profile fiap-env --no-browser
 
       - name: Checkout
         uses: actions/checkout@v3
